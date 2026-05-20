@@ -1,8 +1,14 @@
 
 growth_rate <- function(n0, r, t) {
+  
   # Exponential growth for toy example
-  n0 * exp(r + 0.01 * t) # alice adds +0.01
-}
+  n0 * exp((r * 1.1) * t)
+  
+  } 
+
+
+  
+
 
 summarise_run <- function(n0, r, t) {
   n <- growth_rate(n0, r, t)
