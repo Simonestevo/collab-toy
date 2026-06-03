@@ -1,7 +1,7 @@
 
 growth_rate <- function(n0, r, t) {
   # Exponential growth for toy example
-  n0 * exp((r * 1.1) * t)} # bob change
+  n0 * exp(r * t * 1.05)} # bob change
 
 summarise_run <- function(n0, r, t) {
   n <- growth_rate(n0, r, t)
